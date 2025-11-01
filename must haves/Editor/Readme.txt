@@ -1,0 +1,2 @@
+1. snaptoground is a function that works as an editor tool OR as a monobehavior object (a script you can attach to objects to make them snap to ground). Otherwise use tools>TMG_EditorTools>Snap To Ground
+2. staticrunongameload is to disable the "Player log" in your game, if you haven't done this but have released your game you NEED to do this, and/or add this script to disable logs in your game, or you are sacraficing performance as well as filling up users hard drives with NEEDLESS files/data and running people out of storage!!!!!

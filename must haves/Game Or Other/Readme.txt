@@ -1,0 +1,2 @@
+1. moneymanager is a GSC money system. Very useful for RPG games or any game where you want more than just a single value of "money".
+2. scenenotes is just that, notes for your scene or game that can be store in scene via inspector!

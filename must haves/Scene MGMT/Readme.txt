@@ -1,0 +1,1 @@
+1. LevelLoader is a very comprehensive scene loader, this script loads different scenes via button input or via public function, the serialized variables (variables shown in inspector) are for a loading screen object. They are loading bar fill, loading percent text, and loading bar object.

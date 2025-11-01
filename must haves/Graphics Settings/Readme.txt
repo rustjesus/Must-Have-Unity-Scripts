@@ -1,0 +1,3 @@
+1. FPSCounter tracks the scene's FPS while playing, add to TMP GUI object to view.
+2. Resolutions is my PERFECTED resolutions script, NOTE that at 640x and lower, the resolution will automatically reset, this is due to a graphics bug with the Unity editor, TRUST me, almost nothing else works right. The bug is very aggressive and GAME BREAKING. It also kicks the game into windowed mode on the first time loading the game, this is another bug fix.
+3. ScreenModeSettings is a script that controls the screen "mode" for instance, windowed mode, full screen, or fullscreen windowed mode.
