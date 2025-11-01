@@ -1,1 +1,1 @@
-Read the readMe's in each folder/dir
+Read the ReadMe's in each folder/dir
