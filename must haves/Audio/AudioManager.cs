@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
         audioSourcePool.Add(newGo);
         return newGo;
     }
-    public AudioSource PlayEffectClipAtPoint(AudioClip clip, Vector3 position, float volume, float duration)
+    public AudioSource PlayEffectClipAtPoint(AudioClip clip, Vector3 position, float volume, float duration, float spread3D = 0f)
     {
         var go = GetPooledObject();
         go.transform.position = position;
@@ -51,6 +51,7 @@ public class AudioManager : MonoBehaviour
         audioSource.clip = clip;
         audioSource.outputAudioMixerGroup = effectsAudioMixerGroup;
         audioSource.volume = volume;
+        audioSource.spread = spread3D;
 
         //Destroy(go, clip.length);
         StartCoroutine(ReturnToPool(duration, go));
@@ -59,7 +60,7 @@ public class AudioManager : MonoBehaviour
         return audioSource;
     }
 
-    public AudioSource PlayMusicClipAtPoint(AudioClip clip, Vector3 position, float volume = 1.0f)
+    public AudioSource PlayMusicClipAtPoint(AudioClip clip, Vector3 position, float volume = 1.0f, float spread3D = 0f)
     {
         var go = GetPooledObject();
         go.transform.position = position;
@@ -73,6 +74,7 @@ public class AudioManager : MonoBehaviour
         audioSource.clip = clip;
         audioSource.outputAudioMixerGroup = musicAudioMixerGroup;
         audioSource.volume = volume;
+        audioSource.spread = spread3D;
 
         //Destroy(go, clip.length);
         StartCoroutine(ReturnToPool(clip.length, go));
