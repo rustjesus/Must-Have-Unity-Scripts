@@ -1,3 +1,3 @@
 1. adaptive music is for buttons, you can make music change based on the button if you have adapative music
 2. setvolume is a music, effects, and master volume controller, I've included the mixer for it
-3. AudioManager is a master audio player that gets the right effects and music channels for audio before playing in a giant pool of audio sources, set spread to 360 for point sound or keep at 0 for straight sound
+3. AudioManager is a master audio player that gets the right effects and music channels for audio before playing in a giant pool of audio sources, set blend to 1 for 3d sound or keep at 0 for 2d sound
